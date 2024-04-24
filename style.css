@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #formulaire > * {
+    display: block;
+    margin: .4rem;
+  }
+  
+  #formulaire > label {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  #formulaire > input {
+    border-radius: 8px;
+    width: 32vw;
+    border: 1px solid black;
+    min-height: 3rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  
+  #submit {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  
+  #cards {
+    display: flex;
+    padding: 3rem;
+    gap: 1rem;
+    justify-content: space-around;
+    max-width: 90vw;
+    overflow: scroll;
+  }
+  
+  .card {
+    padding: 1rem;
+    border-radius: 16px;
+    border: 1px solid black;
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    background-color: var(--primary-color);
+  }
+  
+  .card > img {
+    border-radius: 8px;
+    height: 80%;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  #background-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://e0.pxfuel.com/wallpapers/350/24/desktop-wallpaper-chuck-norris.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
